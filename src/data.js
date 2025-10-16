@@ -65,8 +65,8 @@ export const projects = [
       { value: "100", label: "Best Practices" },
       { value: "92", label: "SEO Score" },
     ],
-    image: "/images/work/legacy1.png",
-    mobile: "/images/work/mobilelegacy1.png",
+    image: "./images/work/legacy1.png",
+    mobile: "./images/work/mobilelegacy1.png",
     link: "https://adacatucci.com",
     repo: "https://github.com/Eleeira/adacatucci"
   },
@@ -82,8 +82,8 @@ export const projects = [
       { value: "Responsive", label: "Optimized for all screen sizes - from desktop to mobile." },
       { value: "Original Brand Palette", label: "Preserved the original brand palette for visual continuity." },
     ],
-    image: "/images/work/after.png",
-    mobile: "/images/work/before.png",
+    image: "./images/work/after.png",
+    mobile: "./images/work/before.png",
     repo: ""
     
   },
@@ -100,8 +100,8 @@ export const projects = [
       { value: "100", label: "Best Practices" },
       { value: "91", label: "SEO Score" },
     ],
-    image: "/images/work/fanta1.png",
-    mobile: "/images/work/fanta2.png",
+    image: "./images/work/fanta1.png",
+    mobile: "./images/work/fanta2.png",
     link: "https://fantasiatelje.se",
     repo: "https://github.com/Eleeira/fantasiatelje"
   },
@@ -118,8 +118,8 @@ export const projects = [
       { value: "100", label: "Best Practices" },
       { value: "90", label: "SEO Score" },
     ],
-    image: "/images/work/job1.png",
-    mobile: "/images/work/job2.png",
+    image: "./images/work/job1.png",
+    mobile: "./images/work/job2.png",
     link: "https://eleeira.github.io/job-tracker/",
     repo: "https://github.com/Eleeira/job-tracker"
   },
