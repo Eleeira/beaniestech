@@ -1,0 +1,73 @@
+@import "tailwindcss";
+
+
+
+:root {
+  --color-base: #242a58;
+  --color-surface: #424873;
+  --color-light: #f7f7fc;
+  --color-accent: #8893ba;
+  --color-highlight: #98d796;
+}
+
+/* Usa le variabili di colore e i font personalizzati */
+body {
+  @apply bg-[var(--color-base)] text-[var(--color-light)];
+  font-family: "Roboto", sans-serif;
+  line-height: 1.6;
+}
+
+.font-title {
+  font-family: "Courier Prime", monospace;
+}
+
+.font-body {
+  font-family: "Roboto", sans-serif;
+}
+
+/* Gradient animation */
+@keyframes gradientShift {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+
+::selection {
+  background: var(--color-highlight);
+  color: var(--color-base);
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 1; text-shadow: 0 0 8px var(--color-accent); }
+  50% { opacity: 0.85; text-shadow: 0 0 16px var(--color-highlight); }
+}
+
+@keyframes scroll {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+@keyframes shimmer {
+  0% { background-position: -200%; }
+  100% { background-position: 200%; }
+}
