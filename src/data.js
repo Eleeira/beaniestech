@@ -68,7 +68,7 @@ export const projects = [
     image: "./images/work/legacy1.png",
     mobile: "./images/work/mobilelegacy1.png",
     link: "https://adacatucci.com",
-    repo: "https://github.com/Eleeira/adacatucci"
+    repo: ""
   },
   {
     title: { en: "dataguard.se - Restyling", sv: "dataguard.se - Omformning" },
@@ -89,7 +89,7 @@ export const projects = [
   },
 
    {
-    title: { en: "Fantasiateljé", sv: "Fantasiateljé" },
+    title: { en: "Fantasiateljé Legacy UI", sv: "Fantasiateljé Legacy UI" },
     description: {
       en: "A refined e-commerce redesign focused on clarity and conversion.",
       sv: "En förfinad e-handelsdesign med fokus på tydlighet och konvertering.",
