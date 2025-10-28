@@ -1,18 +1,100 @@
-# React + Vite
+# BEANIES.TECH
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Minimal web experiences. Built with React, Vite & TailwindCSS.**
 
-Currently, two official plugins are available:
+This is the main codebase for [**beaniestech.dev**](https://beaniestech.dev) —  
+a lightweight showcase site designed for clarity, speed, and responsiveness from mobile to 4K.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🧩 Overview
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+The project is structured as a single-page app (SPA) using **React + TypeScript**,  
+built with **Vite** for fast development and optimized builds.
 
-Note: This will impact Vite dev & build performances.
+Main focus:
+- Instant load and fluid motion  
+- Minimal dependencies  
+- Full multilingual support (IT / EN / SV)  
+- Accessibility and visual balance
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🧱 Stack
+
+| Layer | Tech |
+|-------|------|
+| Framework | React 18 + TypeScript |
+| Build tool | Vite |
+| Styling | TailwindCSS + CSS variables |
+| Animation | Framer Motion |
+| i18n | Custom translations with hooks (`/src/i18n/`) |
+| Components | Functional components with hooks |
+| Hosting | Netlify / Vercel ready |
+| Image handling | Optimized `.webp` assets + lazy loading |
+
+---
+
+## 🗂 Project Structure
+- src/
+- ├── assets/ # Images, icons, photos (thumbs + full)
+- ├── components/ # Reusable UI parts (tiles, modal, contact bar, etc.)
+- ├── i18n/ # Translations (it/en/sv)
+- ├── pages/ # Large sections (PortfolioMosaic, etc.)
+- ├── styles/ # Global styles and CSS variables
+- ├── tiles/ # Dynamic tile system (useTiles, MosaicTiles)
+- ├── App.tsx # Main layout
+- └── main.tsx # Entry point (ReactDOM)
+
+
+---
+
+## ⚙️ Development
+
+**Install dependencies**
+```bash
+npm install
+```
+
+
+## 🌐 Deployment
+
+You can deploy this project to:
+
+Netlify (zero config)
+
+Vercel (auto-detects Vite)
+
+GitHub Pages (with npm run build && npm run deploy if configured)
+
+The output folder is /dist.
+
+## 🎨 Design principles
+
+Mobile-first
+
+Consistent spacing & proportions
+
+Soft color palette (cream, clay, olive)
+
+Smooth transitions (framer-motion)
+
+Accessibility in color contrast and tab navigation
+
+## 🔒 Privacy & Data
+
+No external trackers.
+No cookies.
+Minimal analytics (if enabled, privacy-respecting).
+
+## 🧑‍💻 Credits
+
+Designed & built by Hildur / BEANIES.TECH
+© 2025 BEANIES.TECH — All rights reserved.
+
+
+---
+
+
+
+
