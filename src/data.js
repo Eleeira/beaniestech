@@ -102,7 +102,6 @@ export const projects = [
     ],
     image: "./images/work/fanta1.png",
     mobile: "./images/work/fanta2.png",
-    link: "https://fantasiatelje.se",
     repo: "https://github.com/Eleeira/fantasiatelje"
   },
 
