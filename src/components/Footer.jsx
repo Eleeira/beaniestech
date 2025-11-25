@@ -47,8 +47,17 @@ export default function Footer() {
         </div>
 
         <p className="text-xs text-[var(--color-accent)]/70 mt-4 font-body">
-          © {new Date().getFullYear()} BEANIES.TECH Website designed and build by Hildur A. Catucci. All rights reserved.
-        </p>
+  © {new Date().getFullYear()} BEANIES.TECH. All rights reserved. Website designed and built by{" "}
+  <a 
+    href="https://fantasiatelje.se" 
+    target="_blank" 
+    rel="noopener noreferrer"
+    className="underline hover:opacity-80"
+  >
+    Fantasiateljé
+  </a>
+</p>
+
       </div>
 
       {/* Scrolling tech signature */}
